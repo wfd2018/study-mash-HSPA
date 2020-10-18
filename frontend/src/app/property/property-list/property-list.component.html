@@ -1,6 +1,8 @@
 <div class="row">
-  <div class="shadow-lg col-sm-4 p-3">
-    <app-property-card></app-property-card>
-    <!-- this enables the html and css to be applied to the array in property-list.component.ts -->
+  <div *ngFor="let property of properties" class="col-sm-4">
+    <div class="shadow-lg p-3 mb-4">
+      <app-property-card [property]="property"></app-property-card>
+      <!-- this enables the html and css to be applied to the array in property-list.component.ts -->
+    </div>
   </div>
 </div>
