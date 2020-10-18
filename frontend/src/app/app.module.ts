@@ -10,6 +10,8 @@ import {HousingService} from './services/housing.service';
 import { AddPropertyComponent } from './property/add-property/add-property.component';
 import { Routes, RouterModule } from '@angular/router';
 
+const 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,7 @@ import { Routes, RouterModule } from '@angular/router';
     NavBarComponent,
     AddPropertyComponent
   ],
-  imports: [BrowserModule, HttpClientModule],
+  imports: [BrowserModule, HttpClientModule, RouterModule],
   providers: [HousingService],
   bootstrap: [AppComponent],
 })
