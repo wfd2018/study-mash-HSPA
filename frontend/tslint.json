@@ -16,6 +16,7 @@
     "deprecation": {
       "severity": "warning"
     },
+    "no-string-literal": false,
     "eofline": true,
     "import-blacklist": [
       true,
