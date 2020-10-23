@@ -11,9 +11,9 @@ export class AddPropertyComponent implements OnInit {
 
   constructor(private  router: Router) {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
 
-  onBack() {
+  onBack(): void {
     this.router.navigate(['/']);
   }
 }
