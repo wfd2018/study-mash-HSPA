@@ -10,7 +10,7 @@ export class PropertyDetailComponent implements OnInit {
 public propertyId: number;
   constructor(private route: ActivatedRoute) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.propertyId = this.route.snapshot.params['id'];
   }
 
